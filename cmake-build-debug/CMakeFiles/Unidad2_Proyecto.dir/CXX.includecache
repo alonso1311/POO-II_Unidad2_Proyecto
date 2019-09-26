@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ALONSO/CLionProjects/POO II_Second/Unidad2_Proyecto/Biblioteca.h
+Definiciones.h
+C:/Users/ALONSO/CLionProjects/POO II_Second/Unidad2_Proyecto/Definiciones.h
+
+C:/Users/ALONSO/CLionProjects/POO II_Second/Unidad2_Proyecto/Definiciones.h
+iostream
+-
+vector
+-
+algorithm
+-
+
+C:/Users/ALONSO/CLionProjects/POO II_Second/Unidad2_Proyecto/main.cpp
+Definiciones.h
+C:/Users/ALONSO/CLionProjects/POO II_Second/Unidad2_Proyecto/Definiciones.h
+Biblioteca.h
+C:/Users/ALONSO/CLionProjects/POO II_Second/Unidad2_Proyecto/Biblioteca.h
+
