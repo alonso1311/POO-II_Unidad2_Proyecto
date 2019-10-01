@@ -20,6 +20,13 @@ private:
     vector<S> category;
 
 public:
+    Archivo() {}
+
+    void Lectura(string Nombre){
+        ifstream archivo;
+        archivo.open(Nombre, ios::in);
+    }
+
 };
 
 #endif //UNIDAD2_PROYECTO_ARCHIVO_H

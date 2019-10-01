@@ -70,8 +70,8 @@ public:
         }
     }
 
-    void Merge(vector<T> v){
-        mergesort(v, v.begin(), v.end());
+    void Merge(){
+        mergesort(valores, valores.begin(), valores.end());
     }
     //----------------------------- QUICK ------------------------------------------------
 
@@ -98,8 +98,8 @@ public:
             quicksort(v,mid+1,right);
         }
     }
-    void Quick(vector<T> v){
-        quicksort(v, v.begin(), v.end());
+    void Quick(){
+        quicksort(valores, valores.begin(), valores.end());
     }
 
     //----------------------------- HEAP ------------------------------------------------
@@ -136,21 +136,21 @@ public:
         }
     }
 
-    void Heap(vector<T> v){
-        heapSort(v);
+    void Heap(){
+        heapSort(valores);
     }
 
     //----------------------------- SHELL ------------------------------------------------
 
-    void Shell(vector<T> v){
-     int n = v.size();
+    void Shell(){
+     int n = valores.size();
         for (int gap = n/2; gap > 0; gap /= 2)
             for (int j = gap; j < n; ++j)
                 for (int k = j - gap; k >= 0; k -= gap) {
-                    if (v[k+gap] >= v[k])
+                    if (valores[k+gap] >= valores[k])
                         break;
                     else
-                        swap(v[k+gap], v[k]);
+                        swap(valores[k+gap], valores[k]);
                 }
     }
 

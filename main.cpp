@@ -13,9 +13,11 @@ int main() {
     a.push_back(5);
 
     Biblioteca<int> b(a);
-    b.Merge(a);
+    //b.Quick();
+    //b.Merge();
+    //b.Heap();
+    b.Shell();
     b.print();
-
 
     return 0;
 }
