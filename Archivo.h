@@ -8,6 +8,9 @@
 template <typename S, typename N>
 class Archivo {
 private:
+    S nombre;
+    fstream* archivo;
+
     vector<S> country;
     vector<S> year;
     vector<S> comm_code;
@@ -25,6 +28,8 @@ public:
     void Lectura(string Nombre){
         ifstream archivo;
         archivo.open(Nombre, ios::in);
+
+
     }
 
 };

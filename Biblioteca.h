@@ -157,9 +157,15 @@ public:
     //----------------------------- PRINT ------------------------------------------------
 
     void print(){
-        cout << "\nValores:\n";
+        cout << "Valores:\n";
         for(auto i = valores.begin(); i != valores.end(); i++)
             cout << *i << " ";
+        cout << endl;
+    }
+
+    T operator[](int index){
+        auto i = valores.begin();
+        return *i;
     }
 };
 

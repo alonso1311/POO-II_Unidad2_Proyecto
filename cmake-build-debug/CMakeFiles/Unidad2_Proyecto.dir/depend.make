@@ -4,5 +4,6 @@
 CMakeFiles/Unidad2_Proyecto.dir/main.cpp.obj: ../Archivo.h
 CMakeFiles/Unidad2_Proyecto.dir/main.cpp.obj: ../Biblioteca.h
 CMakeFiles/Unidad2_Proyecto.dir/main.cpp.obj: ../Definiciones.h
+CMakeFiles/Unidad2_Proyecto.dir/main.cpp.obj: ../catch.hpp
 CMakeFiles/Unidad2_Proyecto.dir/main.cpp.obj: ../main.cpp
 
