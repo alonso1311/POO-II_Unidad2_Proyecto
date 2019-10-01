@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/ALONSO/CLionProjects/POO II_Second/Unidad2_Proyecto/Archivo.h
+
 C:/Users/ALONSO/CLionProjects/POO II_Second/Unidad2_Proyecto/Biblioteca.h
 Definiciones.h
 C:/Users/ALONSO/CLionProjects/POO II_Second/Unidad2_Proyecto/Definiciones.h
@@ -15,6 +17,10 @@ iostream
 -
 vector
 -
+string
+-
+iterator
+-
 algorithm
 -
 
@@ -23,4 +29,6 @@ Definiciones.h
 C:/Users/ALONSO/CLionProjects/POO II_Second/Unidad2_Proyecto/Definiciones.h
 Biblioteca.h
 C:/Users/ALONSO/CLionProjects/POO II_Second/Unidad2_Proyecto/Biblioteca.h
+Archivo.h
+C:/Users/ALONSO/CLionProjects/POO II_Second/Unidad2_Proyecto/Archivo.h
 

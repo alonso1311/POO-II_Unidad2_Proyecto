@@ -1,5 +1,6 @@
 #include "Definiciones.h"
 #include "Biblioteca.h"
+#include "Archivo.h"
 
 int main() {
     vector<int> a;
@@ -12,7 +13,9 @@ int main() {
     a.push_back(5);
 
     Biblioteca<int> b(a);
+    b.Merge(a);
+    b.print();
 
-    b.Merge();
+
     return 0;
 }
